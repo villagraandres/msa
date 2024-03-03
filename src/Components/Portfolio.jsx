@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/maths.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "PetTrack",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "a web application that allows users to track their pet's health and wellness. It includes a pet profile, a journal, and a calendar to track appointments and reminders.",
+    url: "https://github.com/villagraandres/petTrack1",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Auctions Site",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Project that I made for mi course of harvard computer science. It is a web application that allows users to create auctions and bid on them.",
+    url: "https://github.com/villagraandres/Auctions-Site-Harvard-CS50",
   },
   {
-    title: "My Resume Site",
+    title: "Network",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Another project for my course of harvard computer science. It is a web application that allows users to create a profile and post, follow and unfollow other users.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
 
